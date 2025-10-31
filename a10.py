@@ -1,10 +1,12 @@
-while True:
-    # Code to be executed at least once
-    user_input = input("Enter 'quit' to exit: ")
+numbers = [1, 2, 3, 4, 5]
+for num in numbers:
+    if num == 3:
+        break  # Exit the loop when num is 3
+    print(num)
 
-    if user_input.lower() == 'quit':
-        break  # Exit the loop if the condition is met
+print("---")
 
-    print(f"You entered: {user_input}")
-
-print("Loop finished.")
+for num in numbers:
+    if num == 3:
+        continue # Skip printing 3
+    print(num)
