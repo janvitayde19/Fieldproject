@@ -1,0 +1,5 @@
+#print data ub a string usnig for loop
+city = 'amravati' #string 
+
+for c in city:
+    print (c, end='  ')
